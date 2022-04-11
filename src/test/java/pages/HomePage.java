@@ -55,8 +55,6 @@ public class HomePage {
     @FindBy(xpath = "(//a[@class=\"deleteCartItemButton itemDelete__link itemDelete--positioning\"])[1]")
     public WebElement deleteProductIcon;
 
-    @FindBy(xpath = "//p[@class=\"header-1\"]")
-    public WebElement emptyCartButtt;
 
 
 

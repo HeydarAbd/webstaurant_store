@@ -4,7 +4,9 @@ package stepDefs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.graalvm.compiler.asm.sparc.SPARCAssembler;
 import org.junit.Assert;
+import pages.CartPage;
 import pages.HomePage;
 import utilities.BrowserUtils;
 import utilities.Config;
@@ -16,6 +18,7 @@ import java.util.List;
 public class stepDefs {
 
     HomePage homepage = new HomePage();
+    CartPage cartPage = new CartPage();
 
     @Given("User will navigate to HomePage")
     public void user_will_navigate_to_HomePage() {
@@ -69,7 +72,9 @@ public class stepDefs {
     @Then("user will empty the cart")
     public void user_will_empty_the_cart() {
         BrowserUtils.clickToElement(homepage.viewCartGreenButton);
-        Br
+        BrowserUtils.clickToElement(cartPage.emptyCartButton);
+        BrowserUtils.clickToElement(cartPage.emptyCartOnPopUp);
+
 
     }
 
