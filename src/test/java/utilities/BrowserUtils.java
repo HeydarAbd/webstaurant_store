@@ -1,15 +1,11 @@
 package utilities;
 
-import com.google.common.base.Function;
 import org.junit.Assert;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -74,6 +70,11 @@ public class BrowserUtils {
 
     public static void scrollToElement(WebElement element) {
         ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    public static void selectDropDownValue(WebElement element) {
+        Select dropd = new Select(element);
+        dropd.selectByValue("4162362");
     }
 
 }

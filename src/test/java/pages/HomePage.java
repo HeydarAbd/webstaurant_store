@@ -40,17 +40,23 @@ public class HomePage {
     @FindBy(xpath = "//*[@id=\"td\"]/div[11]/div/div/footer/button[2]")
     public WebElement addToChartButton;
 
+    @FindBy(xpath = "//*[@id=\"accessoriesListOverlayContainer\"]/div/div/select")
+    public WebElement accessories;
+
+    @FindBy(xpath = "//*[@id=\"td\"]/div[11]/div/div/footer/button[2]")
+    public WebElement addToChartButtonOnPopUp;
+
     @FindBy(xpath = "//a[@class=\"group flex self-center leading-3 mt-0 no-underline hover:no-underline\"]//span")
     public WebElement viewCartIcon;
 
     @FindBy(xpath = "//button[@class=\"close\"]")
-    public WebElement viewCartCloseButton;
+    public WebElement viewCartGreenButton;
 
     @FindBy(xpath = "(//a[@class=\"deleteCartItemButton itemDelete__link itemDelete--positioning\"])[1]")
     public WebElement deleteProductIcon;
 
     @FindBy(xpath = "//p[@class=\"header-1\"]")
-    public WebElement cartEmptyText;
+    public WebElement emptyCartButtt;
 
 
 

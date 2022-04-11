@@ -9,7 +9,7 @@ Feature: Search Test
     And User will click on search button
     Then User will verify every product item has the word "Table" in its title.
     And user wiil add last found item on the cart
-#    Then user will empty the cart
+    Then user will empty the cart
 
 
 

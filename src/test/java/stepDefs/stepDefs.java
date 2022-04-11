@@ -50,24 +50,26 @@ public class stepDefs {
             List<String> products = BrowserUtils.getElementsText(homepage.productList);
             for (int j = 1; j < products.size() - 1; j++) {
                 System.out.println("product text: " + products.get(j) + "  - " + products.get(j).contains("Table")  );
-                //Assert.assertTrue(products.get(j).contains("Table"));
             }
         }
     }
 
     @Then("user wiil add last found item on the cart")
-    public void user_wiil_add_last_found_item_on_the_cart() {
+    public void user_wiil_add_last_found_item_on_the_cart() throws InterruptedException {
         BrowserUtils.scrollByPage();
         BrowserUtils.clickToElement((homepage.addToCartButtonElementList.
                 get(homepage.addToCartButtonElementList.size() - 1)));
         BrowserUtils.clickToElement(homepage.addToChartButton);
+        BrowserUtils.clickToElement(homepage.accessories);
+        BrowserUtils.selectDropDownValue(homepage.accessories);
+        BrowserUtils.clickToElement(homepage.addToChartButtonOnPopUp);
+
     }
 
     @Then("user will empty the cart")
     public void user_will_empty_the_cart() {
-//        BrowserUtils.clickToElement(homepage.viewCartCloseButton);
-//        BrowserUtils.clickToElement(homepage.viewCartIcon);
-//        BrowserUtils.clickToElement(homepage.deleteProductIcon);
+        BrowserUtils.clickToElement(homepage.viewCartGreenButton);
+        Br
 
     }
 
