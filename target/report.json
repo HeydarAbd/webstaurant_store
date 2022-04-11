@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-11T00:14:39.520Z",
+        "start_timestamp": "2022-04-11T01:09:41.996Z",
         "before": [
           {
             "result": {
-              "duration": 10400235700,
+              "duration": 4981071600,
               "status": "passed"
             },
             "match": {
@@ -22,9 +22,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d100.0.4896.75)\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027DESKTOP-O4QRLB7\u0027, ip: \u0027192.168.1.152\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.14.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\Heydar\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bb6e3866b04254cb6616e332002ef4c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)\r\n\tat utilities.Driver.getDriver(Driver.java:37)\r\n\tat stepDefs.Hooks.tearDown(Hooks.java:27)\r\n",
-              "duration": 48755200,
-              "status": "failed"
+              "duration": 15578400,
+              "status": "passed"
             },
             "match": {
               "location": "stepDefs.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -36,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 496740500,
+              "duration": 345594100,
               "status": "passed"
             },
             "line": 5,
@@ -48,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 113862300,
+              "duration": 300197800,
               "status": "passed"
             },
             "line": 6,
@@ -60,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 111221100,
+              "duration": 90759200,
               "status": "passed"
             },
             "line": 7,
@@ -72,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 429426400,
+              "duration": 190489200,
               "status": "passed"
             },
             "line": 8,
@@ -90,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 4063977000,
+              "duration": 2587591800,
               "status": "passed"
             },
             "line": 9,
@@ -102,9 +101,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d100.0.4896.75)\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027DESKTOP-O4QRLB7\u0027, ip: \u0027192.168.1.152\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.14.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\Heydar\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bb6e3866b04254cb6616e332002ef4c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:173)\r\n\tat utilities.BrowserUtils.getElementsText(BrowserUtils.java:49)\r\n\tat stepDefs.stepDefs.user_will_verify_every_product_item_has_the_word_in_its_title(stepDefs.java:50)\r\n\tat ✽.User will verify every product item has the word \"Table\" in its title.(file:///C:/Users/Heydar/OneDrive/Desktop/webstaurantstore/src/test/resources/features/search.feature:10)\r\n",
-              "duration": 9388606200,
-              "status": "failed"
+              "duration": 27079908700,
+              "status": "passed"
             },
             "line": 10,
             "name": "User will verify every product item has the word \"Table\" in its title.",
@@ -121,8 +119,8 @@
           },
           {
             "result": {
-              "duration": 1995000,
-              "status": "skipped"
+              "duration": 871408100,
+              "status": "passed"
             },
             "line": 11,
             "name": "user wiil add last found item on the cart",
@@ -130,18 +128,6 @@
               "location": "stepDefs.stepDefs.user_wiil_add_last_found_item_on_the_cart()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 999800,
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "user will empty the cart",
-            "match": {
-              "location": "stepDefs.stepDefs.user_will_empty_the_cart()"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [

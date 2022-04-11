@@ -37,6 +37,9 @@ public class HomePage {
     @FindBy(xpath = "//div[@id=\"paging\"]//nav//ul//li[@class=\"rc-pagination-next\"]")
     public WebElement paginationNext;
 
+    @FindBy(xpath = "//*[@id=\"td\"]/div[11]/div/div/footer/button[2]")
+    public WebElement addToChartButton;
+
     @FindBy(xpath = "//a[@class=\"group flex self-center leading-3 mt-0 no-underline hover:no-underline\"]//span")
     public WebElement viewCartIcon;
 
